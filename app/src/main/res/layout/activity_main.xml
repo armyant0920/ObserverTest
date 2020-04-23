@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+        <TableRow
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/ClownTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="actor" />
+
+            <TextView
+                android:id="@+id/ClownScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="score" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:text="座位" />
+
+            <TextView
+                android:id="@+id/p1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/p2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/p3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/p4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/p5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:text="分數標準" />
+
+            <TextView
+                android:id="@+id/lv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/lv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:weightSum="6">
+
+            <TextView
+                android:id="@+id/回應"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:text="分數標準" />
+
+            <TextView
+                android:id="@+id/rs1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/rs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/rs3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/rs4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/rs5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_block"
+                android:gravity="center"
+                android:text="TextView" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_perform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="performStart"
+        android:text="perform" />
+
+    <TextView
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="TextView" />
+
+</LinearLayout>
